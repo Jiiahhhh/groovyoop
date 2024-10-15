@@ -1,6 +1,6 @@
 package abstract_interface.latihan;
 
-public class Piano extends Instrument implements Tunable{
+public class Piano extends Instrument implements Tunable {
     public Piano(String name) {
         super(name);
     }

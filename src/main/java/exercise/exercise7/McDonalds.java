@@ -14,7 +14,7 @@ public class McDonalds extends Restaurant{
 
     @Override
     double totalPrice(double mealPrice) {
-        double tax=0.06;
+        double tax = 0.06;
         return mealPrice + (mealPrice*tax);
     }
 

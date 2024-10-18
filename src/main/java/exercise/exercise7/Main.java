@@ -6,6 +6,7 @@ public class Main {
         McDonalds mcDonalds = new McDonalds("McD Perintis", "Makassar", true, meals);
 
         mcDonalds.nameRestaurant();
+        System.out.println("Location: " + mcDonalds.location());
 
         double mealPrice = 10;
         System.out.println("Total Price with tax: " + mcDonalds.totalPrice(mealPrice));

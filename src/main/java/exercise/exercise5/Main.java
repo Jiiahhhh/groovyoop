@@ -1,6 +1,6 @@
 package exercise.exercise5;
 
-public class Main extends MyClass{
+public class Main {
     public static void inter1 (Interface1 interface1){
         interface1.method1();
         interface1.method2();

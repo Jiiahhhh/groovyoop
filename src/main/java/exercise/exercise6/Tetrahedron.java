@@ -14,7 +14,7 @@ public class Tetrahedron extends ThreeDimensionalShape{
 
     @Override
     public double getVolume() {
-        return Math.pow(side, 3) / (6 * Math.pow(side, 2));
+        return Math.pow(side, 3) / (6 * Math.sqrt(2));
     }
 
     @Override
